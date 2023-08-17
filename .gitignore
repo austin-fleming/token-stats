@@ -1,0 +1,10 @@
+# junk
+.DS_Store
+*.log
+*.log.*
+
+# build
+/target
+
+# secrets
+.env
