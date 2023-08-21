@@ -3,6 +3,9 @@
 *.log
 *.log.*
 
+# references
+**/__deprecated__/**
+
 # build
 /target
 
