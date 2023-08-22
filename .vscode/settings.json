@@ -1,9 +1,12 @@
 {
     "cSpell.words": [
+        "Cryptopunks",
         "dotenv",
         "ETHMAINNET",
         "hashrate",
         "hmac",
-        "reqwest"
-    ]
+        "reqwest",
+        "Sushiswap"
+    ],
+    "editor.formatOnSave": true
 }
