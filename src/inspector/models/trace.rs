@@ -1,6 +1,4 @@
-
 pub type U256Alias = String;
-
 
 pub struct TraceModel {
     pub tx_hash: String, // PK
@@ -19,11 +17,10 @@ pub struct TraceModel {
     pub gas: Option<U256Alias>,
     pub value: Option<U256Alias>,
     pub gas_used: Option<U256Alias>,
-    pub error: Option<String>
+    pub error: Option<String>,
 }
 
-
-/* 
+/*
 class ClassifiedTraceModel(Base):
     __tablename__ = "classified_traces"
 

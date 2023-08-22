@@ -1,4 +1,4 @@
-use ethers::types::{Transaction};
+use ethers::types::Transaction;
 
 pub trait MempoolTransaction {
     fn pretty_print(&self) -> String;
